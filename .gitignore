@@ -1,0 +1,33 @@
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules and dependencies
+/go/
+*.sum
+vendor/
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
